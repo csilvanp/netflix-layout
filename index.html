@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--Owl CSS-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="n-logo">
+                <img src="/img/n-logo.png" alt="Logo Alternativo">
+            </div>
+            <div class="logo">
+                <img src="/img/logo.png" alt="Logo da Netflix">
+            </div>
+            <nav class="nav-menu">
+                <a href="#">Início</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-movie-wrapper">
+            <div class="movie-content">
+                <img src="/img/movie-logo.png" alt="La Casa De Papel" class="movie-logo">
+                <p class="movie-alt">O roubo perfeito.</p>
+                <p class="synopsis">O Professor e sua equipe se reúnem para libertar Rio com um plano ousado e perigoso. Desta vez, o alvo é o Banco da Espanha. A Resistência continua.</p>
+            <div class="buttons">
+                <button role="button" class="play">
+                    <i class="fas fa-play"></i>
+                    Assistir
+                </button>
+                <button role="button" class="more-info">
+                    <i class="fas fa-info-circle"></i>
+                    Mais Informações
+                </button>
+            </div>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="movie-carousel"> <!--Using Owl Carousel-->
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="img/banners/banner-1.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/banners/banner-2.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/banners/banner-4.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/banners/banner-5.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/banners/banner-6.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/banners/banner-7.jpg" alt="">
+            </div>
+            <div class="item">
+                <img src="img/banners/banner-8.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/8f1e3a6b29.js" crossorigin="anonymous"></script>
+    <!--Owl JS-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px){
+    header .nav-menu{
+        font-size: 1rem;
+    }
+    .movie-content{
+        width: 70%;
+    }
+    .mobile-menu{
+        display: flex;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .play, .more-info{
+        display: flex;
+        float: left;
+        align-items: center;
+    }
+    .more-info{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header .container{
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .movie-content{
+        width: 80%;
+    }
+    .logo img{
+        display: none;
+    }
+    .n-logo{
+        display: flex;
+    }
+    .n-logo img{
+        width: 1.6rem;
+    }
+}
